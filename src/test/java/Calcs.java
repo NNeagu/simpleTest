@@ -8,6 +8,7 @@ public class Calcs {
         Assert.assertEquals(1, 0);
     }
     @Test
+    
     public void alwaysFail1()
     {
         Assert.assertEquals(1, 1);
