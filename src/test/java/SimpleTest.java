@@ -207,7 +207,6 @@ import java.util.Random;
     @Test
     public void sometimesPass888198()
     {
-
          Random random = new Random();
          int randomNumber = random.nextInt(100);
          boolean smallerThanFiftee =  randomNumber < 50 ? true : false;
