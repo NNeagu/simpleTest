@@ -68,12 +68,12 @@ import java.util.Random;
                     @Test
                     public void alwaysPassA()
                     {
-                        Assert.assertEquals(2, 1);
+                        Assert.assertEquals(1, 1);
                     }
                     @Test
                     public void alwaysPassB()
                     {
-                        Assert.assertEquals(1, 1);
+                        Assert.assertEquals(2, 1);
                     }
                     @Test
                     public void alwaysPassG()
