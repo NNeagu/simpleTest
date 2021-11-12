@@ -57,7 +57,7 @@ import java.util.Random;
                     @Test
                     public void alwaysPassD()
                     {
-                        Assert.assertEquals(1, 1);
+                        Assert.assertEquals(3, 1);
                     }
 
                     @Test
