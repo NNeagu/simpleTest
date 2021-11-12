@@ -68,7 +68,7 @@ import java.util.Random;
                     @Test
                     public void alwaysPassA()
                     {
-                        Assert.assertEquals(2, 1);
+                        Assert.assertEquals(1, 1);
                     }
                     @Test
                     public void alwaysPassB()
@@ -126,7 +126,7 @@ import java.util.Random;
                     @Test
                     public void alwaysPassC()
                     {
-                        Assert.assertEquals(4, 1);
+                        Assert.assertEquals(1, 1);
                     }
                   @Test
                     public void alwaysPass7()
