@@ -22,7 +22,7 @@ import java.util.Random;
                    public void alwaysPass1()
                    {
 
-                       Assert.assertEquals(a, b);
+                       Assert.assertEquals(a, 1);
                        Assert.assertEquals(1, 1);
                    }
 			
@@ -38,7 +38,7 @@ import java.util.Random;
                    public void alwaysPass1New1()
                    {
                     
-                       Assert.assertEquals(1, 2);
+                       Assert.assertEquals(2, 2);
                    }
                 
 
@@ -68,12 +68,12 @@ import java.util.Random;
                     @Test
                     public void alwaysPassA()
                     {
-                        Assert.assertEquals(5, 1);
+                        Assert.assertEquals(1, 1);
                     }
                     @Test
                     public void alwaysPassB()
                     {
-                        Assert.assertEquals(2, 1);
+                        Assert.assertEquals(1, 1);
                     }
                     @Test
                     public void alwaysPassG()
@@ -94,7 +94,7 @@ import java.util.Random;
                     @Test
                     public void alwaysPassF()
                     {
-                        Assert.assertEquals(1, 2);
+                        Assert.assertEquals(1, 1);
                     }
                    @Test
                    public void alwaysFail5()
@@ -106,27 +106,27 @@ import java.util.Random;
                   @Test
                     public void alwaysPass6()
                     {
-                        Assert.assertEquals(1, 2);
+                        Assert.assertEquals(1, 1);
                     }
 			@Test
                     public void always1Pass6()
                     {
-                        Assert.assertEquals(1, 3);
+                        Assert.assertEquals(3, 3);
                     }
 			@Test
                     public void always2Pass6()
                     {
-                        Assert.assertEquals(1, 7);
+                        Assert.assertEquals(7, 7);
                     }
 			@Test
                     public void always3Pass6()
                     {
-                        Assert.assertEquals(1, 2);
+                        Assert.assertEquals(1, 1);
                     }
                     @Test
                     public void alwaysPassC()
                     {
-                        Assert.assertEquals(3, 1);
+                        Assert.assertEquals(1, 1);
                     }
                   @Test
                     public void alwaysPass7()
