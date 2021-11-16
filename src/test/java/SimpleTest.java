@@ -157,7 +157,7 @@ import java.util.Random;
                   @Test
                    public void alwaysFail12()
                    {
-                       Assert.assertEquals(1, 1);
+                       Assert.assertEquals(1, 3);
                    }
                   @Test
                    public void alwaysFail13()
