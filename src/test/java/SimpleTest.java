@@ -22,7 +22,7 @@ import java.util.Random;
                    public void alwaysPass1()
                    {
 
-                       Assert.assertEquals(a, 1);
+                       Assert.assertEquals(a, b);
                        Assert.assertEquals(1, 1);
                    }
 			
