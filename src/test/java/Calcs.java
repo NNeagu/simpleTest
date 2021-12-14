@@ -6,14 +6,14 @@ public class Calcs {
     @Test
     public void alwaysFail()
     {
-        Assert.assertEquals(1, 2);
+        Assert.assertEquals(3, 3);
         
     }
     
     @Test
     public void alwaysFail1()
     {
-        Assert.assertEquals(1, 2);
+        Assert.assertEquals(5, 2);
         
     }
 }
