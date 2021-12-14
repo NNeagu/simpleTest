@@ -11,7 +11,7 @@ import java.util.Random;
 		 rrg
                 */  
                 public class SimpleTest {
-                    private int a = 1;
+                    private int a = 3;
                     private int b =3;
                  
 			
@@ -57,7 +57,7 @@ import java.util.Random;
                     @Test
                     public void alwaysPassD()
                     {
-                        Assert.assertEquals(3, 1);
+                        Assert.assertEquals(2, 1);
                     }
 
                     @Test
