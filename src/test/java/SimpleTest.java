@@ -63,7 +63,7 @@ import java.util.Random;
                     @Test
                     public void alwaysPass4()
                     {
-                        Assert.assertEquals(1, 1);
+                        Assert.assertEquals(9, 1);
                     }
                     @Test
                     public void alwaysPassA()
@@ -212,5 +212,3 @@ import java.util.Random;
          Assert.assertEquals(smallerThanFiftee, true);
      }
 }
-
-//comment
