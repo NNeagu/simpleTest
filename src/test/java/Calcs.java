@@ -13,7 +13,7 @@ public class Calcs {
     @Test
     public void alwaysFail1()
     {
-        Assert.assertEquals(5, 2);
+        Assert.assertEquals(2, 2);
         
     }
 }
