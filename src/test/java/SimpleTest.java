@@ -51,7 +51,7 @@ import java.util.Random;
                    @Test  
                    public void alwaysPass3()
                    {
-                       Assert.assertEquals(1, 1);
+                       Assert.assertEquals(0, 1);
                    }
 
                     @Test
