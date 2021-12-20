@@ -152,7 +152,7 @@ import java.util.Random;
                   @Test
                    public void alwaysFail11()
                    {
-                       Assert.assertEquals(1, 0);
+                       Assert.assertEquals(1, 4);
                    }
                   @Test
                    public void alwaysFail12()
