@@ -23,7 +23,7 @@ import java.util.Random;
                    {
 
                        Assert.assertEquals(a, b);
-                       Assert.assertEquals(1, 1);
+                       Assert.assertEquals(9, 1);
                    }
 			
 		
@@ -31,7 +31,7 @@ import java.util.Random;
                    public void alwaysPass1New()
                    {
                     
-                       Assert.assertEquals(8, 1);
+                       Assert.assertEquals(9, 1);
                    }
 			
 		   @Test  
