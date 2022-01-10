@@ -31,7 +31,7 @@ import java.util.Random;
                    public void alwaysPass1New()
                    {
                     
-                       Assert.assertEquals(9, 1);
+                       Assert.assertEquals(8, 1);
                    }
 			
 		   @Test  
