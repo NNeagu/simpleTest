@@ -45,7 +45,7 @@ import java.util.Random;
                    @Test
                     public void alwaysPass2()
                     {
-                        Assert.assertEquals(1, 1);
+                        Assert.assertEquals(10, 1);
                         System.out.println("proba9");
                     }
                    @Test  
