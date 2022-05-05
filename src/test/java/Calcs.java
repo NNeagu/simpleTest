@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class Calcs {
-    
+    string password = "password";
     @Test
     public void alwaysFail()
     {
