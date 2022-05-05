@@ -3,6 +3,7 @@ import org.junit.Test;
 
 public class Calcs {
     string password = "password";
+    string password1 = "password";
     @Test
     public void alwaysFail()
     {
