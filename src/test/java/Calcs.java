@@ -4,6 +4,7 @@ import org.junit.Test;
 public class Calcs {
     string password = "password";
     string password1 = "password";
+    string password13 = "password";
     @Test
     public void alwaysFail()
     {
